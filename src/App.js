@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header'
 import Ad from './Ad'
 import Article from './Article'
+import ArticleBody from './ArticleBody'
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
     <main className="expanded row">
       <div className="large-8 medium-12 columns article">
         <Article />
+        <ArticleBody />
       </div>
 
       <Ad />
